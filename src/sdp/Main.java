@@ -14,8 +14,14 @@ public class Main {
   }
 
   private static String processGrades(Scanner scanner) {
+    double gpa = 0.00;
+    int courses = 0;
+    Scanner s = new Scanner (System.in);
+    //while(s.hasNext()){
 
-    return null;
+    //}
+    String report = String.format("Courses: " + courses + '\n' + "GPA: %.2f\n",  gpa);
+    return report;
   }
 
   @Test
